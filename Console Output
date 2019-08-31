@@ -1,0 +1,25 @@
+2019-08-31 13:12:58 INFO  Version:46 - HHH000412: Hibernate Core {5.3.1.Final}
+2019-08-31 13:12:58 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2019-08-31 13:12:58 INFO  SpatialService:42 - HHH80000001: hibernate-spatial integration enabled : true
+2019-08-31 13:12:58 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+2019-08-31 13:12:58 WARN  pooling:73 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-08-31 13:12:58 INFO  pooling:129 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/codewithabhishek07]
+2019-08-31 13:12:58 INFO  pooling:138 - HHH10001001: Connection properties: {user=root, password=****}
+2019-08-31 13:12:58 INFO  pooling:143 - HHH10001003: Autocommit mode: false
+2019-08-31 13:12:58 INFO  DriverManagerConnectionProviderImpl:281 - HHH000115: Hibernate connection pool size: 20 (min=1)
+Sat Aug 31 13:12:59 IST 2019 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2019-08-31 13:12:59 INFO  Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2019-08-31 13:12:59 INFO  EnversServiceImpl:92 - Envers integration enabled? : true
+2019-08-31 13:12:59 INFO  CodeWithMain:33 - Hibernate serviceRegistry created
+2019-08-31 13:12:59 INFO  CodeWithMain:34 - Hibernate Configuration loaded
+2019-08-31 13:13:00 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1623bbe5] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-08-31 13:13:00 INFO  CodeWithMain:40 - Session is Open for Transaction
+Enter your name
+Abhishek
+Enter your Last Name
+Singh
+Enter your address
+pune
+2019-08-31 13:13:14 INFO  CodeWithMain:55 - data has been stored in database
+Sat Aug 31 13:13:14 IST 2019 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2019-08-31 13:13:15 INFO  CodeWithMain:60 - session closed
